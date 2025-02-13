@@ -1,27 +1,12 @@
-<img src='https://the-public-domain-review.imgix.net/collections/w-e-b-du-bois-hand-drawn-infographics-of-african-american-life-1900/32764473915_e36c65737e_o.jpg?fit=max&w=1024&h=850&auto=format,compress'/>
+# W.E.B. Du Bois Infographics Challenge 2025
+Célèbre sociologue, écrivain et militant des droits des Noirs W.E.B. Du Bois a fondamentalement changé la représentation des Noirs américains avec son exposition de visualisations de données à l'Exposition universelle de Paris de 1900.
 
-# Introduction
+<img width=100% src='https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2025/plate-list-00001.png?raw=true'/>
 
-Présentation du projet.#duboischallenge2005
+# Objectif
 
-# Structure
+ - un document par publication: `doc.py`, `img`, `txt` avec un lien ....
+ - une méthodologie claire: ingrédients & recette
 
-Les données uniquement non sensibles sont sur le github pour des soucis de confidentialité. 
 
-On trouve les données brutes dans le dossier `data/raw`, données partagées par `DVS`, et par .d pour le `mirror`. 
-On trouve dans `sources` les modules créés pour ce projet.
-On trouve dans `model` les modeles de ML.
-Les données pour les quelles, on souhaite faire des prédictions se trouvent dans le dossier `data/test`.
-On trouve dans le dossier `rapport` les éléments nécessaires pour DVS. présentation, dont éléments pour intégration `html`.
-
-# Exécutables
-
-* `challenge{x}.py` va traiter les données brutes (`data/raw`) et créer une `visualisation` exportable, interprétée du travail orignal de W.E.B. Du Bois. #duboischallenge2005
-
-* `mirror{x}.py` crée une visualisation sur la base du modele de `challenge{x}.py` mais traitant d'un big challenges / défi actuel.
-
-* `predict{x}.py` utilise les dataframes de `challenge{x}.py` `mirror{x}.py` afn de prédire une visuation sur une thématique similaire.
-
-# Utilisation
-
-as you wish :)
+<img width=40% src='https://the-public-domain-review.imgix.net/collections/w-e-b-du-bois-hand-drawn-infographics-of-african-american-life-1900/32764473915_e36c65737e_o.jpg?fit=max&w=1024&h=850&auto=format,compress'/>
