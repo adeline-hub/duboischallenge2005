@@ -6,7 +6,7 @@ Célèbre sociologue, écrivain et militant des droits des Noirs W.E.B. Du Bois 
 # Objectif
 
  - un document par publication: `doc.py`, `img`, `txt` avec un lien ....
- - une méthodologie claire: ingrédients & recette
+ - utilisation de Matplotlib en priorité
 
 
 <img width=40% src='https://the-public-domain-review.imgix.net/collections/w-e-b-du-bois-hand-drawn-infographics-of-african-american-life-1900/32764473915_e36c65737e_o.jpg?fit=max&w=1024&h=850&auto=format,compress'/>
