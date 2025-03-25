@@ -26,7 +26,9 @@ def turtle_draw(percentage, which_level, bar_width):
     return x, y
 
 #(TURTLE)PLOT 
-fig, ax = plt.subplots(figsize=(8, 8))
+fig, ax = plt.subplots(figsize=(10, 13))
+fig.patch.set_facecolor('oldlace') 
+ax.set_facecolor('oldlace') 
 colors = ['#F08080', 'lightgrey', '#ccbdbd', '#ef9702', '#eeeeee', 'red']
 for i in range(6):
     x, y = turtle_draw(df['STANDARDIZATION'][i], 6 - i, 0.9)
@@ -41,7 +43,5 @@ for i, year in enumerate(df['Year'].sort_values(ascending=False).values[:6]):
 
 # DESIGN THE CHART
 ax.set_aspect('equal')
-ax.set_facecolor("oldlace")
 ax.set_axis_off()
-
 plt.show()
