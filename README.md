@@ -10,3 +10,6 @@ Célèbre sociologue, écrivain et militant des droits des Noirs W.E.B. Du Bois 
 
 
 <img width=40% src='https://the-public-domain-review.imgix.net/collections/w-e-b-du-bois-hand-drawn-infographics-of-african-american-life-1900/32764473915_e36c65737e_o.jpg?fit=max&w=1024&h=850&auto=format,compress'/>
+
+
+Source: https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2025/README.md
