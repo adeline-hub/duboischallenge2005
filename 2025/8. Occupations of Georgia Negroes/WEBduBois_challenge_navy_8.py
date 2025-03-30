@@ -14,9 +14,9 @@ df['Count_design'] = df['Count'].replace(98400, 63012)
 df = df.sort_values(by="Count", ascending=True)
 def split_label(label, width=13):
     wrapped = textwrap.wrap(label, width)
-    max_lines = 2  
+    max_lines = 2
     if len(wrapped) < max_lines:
-        wrapped.append("") 
+        wrapped.append("")
     return "\n".join(wrapped)
 df['Wrapped_Occupation'] = df['Occupation'].apply(lambda x: split_label(x))
 
@@ -39,13 +39,13 @@ bars = ax.barh(bar_positions, df['Count_design'], height=bar_width, color='red',
 for bar, count in zip(bars, df['Count']):
     ax.text(-8000,
             bar.get_y() + bar.get_height() / 2,
-            f"{int(count):,}", va='baseline', fontsize=12, color='grey')
+            f"{int(count):,}", va='baseline', fontsize=11, color='grey')
 for bar, label in zip(bars, df['Wrapped_Occupation']):
     ax.text(-16000,
             bar.get_y() + bar.get_height() / 2,
-            label, va='center', ha='center', fontsize=11, color='grey')
+            label, va='center', ha='center', fontsize=10, color='grey')
 ax.set_title("OCCUPATIONS OF GEORGIA NEGROES.", fontsize=18)
-ax.text(30000, -1.5, "matplotlib | #DuBoisChallenge2025 | ade yang", ha='center', fontsize=12, fontweight='light')
+ax.text(30000, -4, "matplotlib | #DuBoisChallenge2025 | ade yang", ha='center', fontsize=12, fontweight='light')
 ax.text(30000, 28.7, "MALES OVER 10", ha='center', color='grey', fontsize=14, fontweight='light')
 ax.text(30000, 11, "1890.", ha='center', fontsize=18, fontweight='light', color='black')
 ax.hlines(y=27, xmin=35588, xmax=63012, color='red', linestyle='-', linewidth=10)
@@ -53,7 +53,8 @@ ax.axvline(x=63012, ymin=0.928, ymax=0.947, color='red', linestyle='-', linewidt
 ax.axvline(x=5000, ymin=0.0519, ymax=0.67, color='grey', linestyle='-', linewidth=1)
 ax.hlines(y=0, xmin=2000, xmax=5000, color='grey', linestyle='-', linewidth=1)
 ax.hlines(y=19.01, xmin=2000, xmax=5000, color='grey', linestyle='-', linewidth=1)
-
+ax.hlines(y=9, xmin=5000, xmax=8000, color='grey', linestyle='-', linewidth=1)
+ax.hlines(y=9, xmin=10000, xmax=25000, color='red', linestyle='-', linewidth=10)
 
 # DESIGN
 ax.set_xlabel("")
