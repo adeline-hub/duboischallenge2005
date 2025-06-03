@@ -16,3 +16,7 @@ Célèbre sociologue, écrivain et militant des droits des Noirs W.E.B. Du Bois 
 
 
 Source: https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2025/README.md
+
+# Final deck: 
+
+https://speakerdeck.com/ajstarks/number-dubois-challenge-2025-economics?slide=14
