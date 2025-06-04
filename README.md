@@ -1,4 +1,7 @@
 # W.E.B. Du Bois Infographics Challenge 2025
+
+#python, #matplotlib, #dataviz
+
 Célèbre sociologue, écrivain et militant des droits des Noirs W.E.B. Du Bois a fondamentalement changé la représentation des Noirs américains avec son exposition de visualisations de données à l'Exposition universelle de Paris de 1900.
 
 <img width=100% src='https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2025/plate-list-00001.png?raw=true'/>
